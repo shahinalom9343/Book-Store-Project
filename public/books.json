@@ -1,0 +1,80 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "https://basket-01.wbbasket.ru/vol80/part8062/8062974/images/c516x688/1.webp",
+    "review": "A timeless classic that explores themes of racial injustice and moral growth.To Kill a Mockingbird is not merely a classic novel; it is a literary treasure that transcends time. Harper Lee's masterpiece is an unforgettable journey into the heart of a small Southern town, where the complexities of human nature are laid bare against a backdrop of racial injustice.",
+    "totalPages": 336,
+    "rating": 4.5,
+    "category": "Science Fiction",
+    "tags": ["classic", "coming-of-age", "Drama"],
+    "publisher": "J. B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "bookId": 2,
+    "bookName": "1984",
+    "author": "George Orwell",
+    "image": "https://www.winkart.in/wp-content/uploads/2021/07/cgchcgh.jpg",
+    "review": "A dystopian novel that remains chillingly relevant in today's society.Intensely bleak, it is a nightmare scenario to imagine, sadly though after the last few years, it almost feels like a prophecy, with people's freedoms and civil liberties being diminished. I'm not a cynic, but I see glimpses of the novel in day to day life.",
+    "totalPages": 328,
+    "rating": 4.7,
+    "category": "Tragedy",
+    "tags": ["dystopian", "political-fiction", "surveillance"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "bookId": 3,
+    "bookName": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781524879761/the-great-gatsby-9781524879761_hr.jpg",
+    "review": "A captivating tale of love, wealth, and the American Dream set in the Jazz Age.The Great Gatsby, novel by American author F. Scott Fitzgerald, published in 1925. It tells the story of Jay Gatsby, a self-made millionaire, and his pursuit of Daisy Buchanan, a wealthy young woman whom he loved in his youth. Set in 1920s New York, the book is narrated by Nick Carraway.",
+    "totalPages": 180,
+    "rating": 4.4,
+    "category": "Fiction",
+    "tags": ["Literature", "romance", "wealth"],
+    "publisher": "Charles Scribner's Sons",
+    "yearOfPublishing": 1925
+  },
+  {
+    "bookId": 4,
+    "bookName": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "image": "https://static-01.daraz.com.bd/p/edb269ae7b70575171b6fef66ddce690.jpg",
+    "review": "A timeless romance that explores social norms and personal integrity.Pride and Prejudice follows the turbulent relationship between Elizabeth Bennet, the daughter of a country gentleman, and Fitzwilliam Darcy, a rich aristocratic landowner. They must overcome the titular sins of pride and prejudice in order to fall in love and marry.",
+    "totalPages": 432,
+    "rating": 4.6,
+    "category": "Fiction",
+    "tags": ["romance", "Commentary", "Literature"],
+    "publisher": "T. Egerton, Whitehall",
+    "yearOfPublishing": 1813
+  },
+  {
+    "bookId": 5,
+    "bookName": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg/220px-The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg",
+    "review": "To Kill a Mockingbird is not merely a classic novel; it is a literary treasure that transcends time. Harper Lee's masterpiece is an unforgettable journey into the heart of a small Southern town, where the complexities of human nature are laid bare against a backdrop of racial injustice.",
+    "totalPages": 224,
+    "rating": 4.3,
+    "category": "Fiction",
+    "tags": ["coming-of-age", "teen-angst", "Literature"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  },
+  {
+    "bookId": 6,
+    "bookName": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "image": "https://listeningbooks.s3.eu-west-2.amazonaws.com/public/books/1000x0/11120.jpg",
+    "review": "A magical journey that introduces readers to the enchanting world of Hogwarts.Climactic Moment: Harry kills Quirrell, and Voldemort's spirit flees. Resolution: House Gryffindor, to which Harry and his friends belong, are rewarded the coveted House Cup, as the result of their actions. They all leave Hogwarts for the summer holidays.",
+    "totalPages": 332,
+    "rating": 4.8,
+    "category": "Fantasy",
+    "tags": ["magic", "wizardry", "young-adult"],
+    "publisher": "Bloomsbury",
+    "yearOfPublishing": 1997
+  }
+]
