@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import { saveBooks } from "../Utilities/localStorage";
 
 const BookDetails = () => {
@@ -50,12 +50,13 @@ const BookDetails = () => {
           </div>
           <div>
             <div className="flex gap-8">
-              <button
+              <Link
+                to="/listed_books"
                 onClick={() => handleReadBooks(book)}
                 className="btn btn-outline px-6"
               >
                 Read
-              </button>
+              </Link>
               <button className="btn btn-info px-6">WishList</button>
             </div>
           </div>
