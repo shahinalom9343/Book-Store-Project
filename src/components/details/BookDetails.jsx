@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { useLoaderData, useParams } from "react-router-dom";
+import { saveBooks } from "../Utilities/localStorage";
 
 const BookDetails = () => {
   const books = useLoaderData();
@@ -7,6 +8,9 @@ const BookDetails = () => {
   const idInt = parseInt(id);
   // console.log(id);
   const book = books.find((book) => book.bookId === idInt);
+  const handleReadBooks = (book) => {
+    saveBooks(book);
+  };
   // console.log(book);
   // console.log(book);
   return (
@@ -46,7 +50,12 @@ const BookDetails = () => {
           </div>
           <div>
             <div className="flex gap-8">
-              <button className="btn btn-outline px-6">Read</button>
+              <button
+                onClick={() => handleReadBooks(book)}
+                className="btn btn-outline px-6"
+              >
+                Read
+              </button>
               <button className="btn btn-info px-6">WishList</button>
             </div>
           </div>

@@ -44,7 +44,7 @@ const Navbar = () => {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                isActive ? "text-primary font-bold" : "font-bold"
+                isActive ? "text-primary font-bold " : "font-bold"
               }
             >
               Home
@@ -60,7 +60,7 @@ const Navbar = () => {
             <NavLink
               to="/pages"
               className={({ isActive }) =>
-                isActive ? "text-primary font-bold " : "font-bold "
+                isActive ? "text-primary font-bold" : "font-bold "
               }
             >
               Pages to Read
