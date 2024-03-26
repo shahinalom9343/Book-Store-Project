@@ -57,7 +57,13 @@ const BookDetails = () => {
               >
                 Read
               </Link>
-              <button className="btn btn-info px-6">WishList</button>
+              <Link
+                to="/listed_books"
+                onClick={() => handleReadBooks(book)}
+                className="btn btn-outline px-6"
+              >
+                Wishlists
+              </Link>
             </div>
           </div>
         </div>
