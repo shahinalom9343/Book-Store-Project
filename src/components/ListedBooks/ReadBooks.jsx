@@ -1,4 +1,4 @@
-import { FaRegStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ReadBooks = ({ readBook }) => {
   // console.log(readBook);
@@ -19,7 +19,7 @@ const ReadBooks = ({ readBook }) => {
         <figure>
           <img src={image} alt="Book" className="rounded-xl h-80 w-80" />
         </figure>
-        <div className="text-start flex flex-col gap-4 lg:pt-10 ">
+        <div className="text-start flex flex-col gap-4 lg:pt-10">
           <h2 className="card-title">{bookName}</h2>
           <p>By: {author} </p>
           <div className="flex justify-between text-base font-semibold gap-10">
@@ -50,9 +50,9 @@ const ReadBooks = ({ readBook }) => {
               </button>
             </div>
             <div className="bg-[#23BE0A] rounded-lg">
-              <button className="btn btn-active btn-ghost  text-white">
+              <Link className="btn btn-active btn-ghost  text-white">
                 View Details
-              </button>
+              </Link>
             </div>
           </div>
         </div>

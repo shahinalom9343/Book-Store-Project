@@ -1,8 +1,13 @@
-# React + Vite
+# Book Vibe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitHub Link : https://github.com/programming-hero-web-course-4/b9a8-book-vibe-shahinalom9343
 
-Currently, two official plugins are available:
+Live Website Link :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+BulletPoint you may read:
+
+1. This website is a collection of Books.
+2. Different category books are available here
+3. Read and wishlists of these books are avail to this website
+4. You can get a clear idea from reading of review of single book.
+5. Hopefully these books make you refresh of your mind.
