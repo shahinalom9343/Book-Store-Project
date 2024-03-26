@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
 import { Link, useLoaderData, useParams } from "react-router-dom";
 import { saveBooks } from "../Utilities/localStorage";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const BookDetails = () => {
   const books = useLoaderData();
@@ -9,8 +11,10 @@ const BookDetails = () => {
   // console.log(id);
   const book = books.find((book) => book.bookId === idInt);
   const handleReadBooks = (book) => {
+    toast("Wow so easy!");
     saveBooks(book);
   };
+
   // console.log(book);
   // console.log(book);
   return (
@@ -57,6 +61,7 @@ const BookDetails = () => {
               >
                 Read
               </Link>
+
               <Link
                 to="/listed_books"
                 onClick={() => handleReadBooks(book)}
@@ -68,6 +73,7 @@ const BookDetails = () => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };

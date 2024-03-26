@@ -1,7 +1,7 @@
 import { FaRegStar } from "react-icons/fa";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import BookDetails from "../details/BookDetails";
+
 const SingleBook = ({ book }) => {
   const { bookId, image, bookName, author, rating, category, tags } = book;
   return (

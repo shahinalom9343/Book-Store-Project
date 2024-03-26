@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const ReadBooks = ({ readBook }) => {
   // console.log(readBook);
   const {
+    bookId,
     image,
     bookName,
     author,
@@ -26,9 +28,9 @@ const ReadBooks = ({ readBook }) => {
             <div className="flex gap-2">
               <div>Tags:</div>
               <div className="flex gap-4">
-                {tags.map((tag) => (
+                {/* {tags.map((tag) => ( 
                   <p className="text-green-500">#{tag}</p>
-                ))}
+                ))} */}
               </div>
             </div>
             <div>Year of Publishing : {yearOfPublishing}</div>
@@ -50,7 +52,10 @@ const ReadBooks = ({ readBook }) => {
               </button>
             </div>
             <div className="bg-[#23BE0A] rounded-lg">
-              <Link className="btn btn-active btn-ghost  text-white">
+              <Link
+                to={`/book/${bookId}`}
+                className="btn btn-active btn-ghost  text-white"
+              >
                 View Details
               </Link>
             </div>
@@ -60,5 +65,7 @@ const ReadBooks = ({ readBook }) => {
     </div>
   );
 };
-
+ReadBooks.propTypes = {
+  readBook: PropTypes.object.isRequired,
+};
 export default ReadBooks;
