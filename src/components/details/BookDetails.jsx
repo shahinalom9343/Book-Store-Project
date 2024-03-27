@@ -32,7 +32,7 @@ const BookDetails = () => {
           <span className="font-bold">Review:</span>
           {book.review}{" "}
         </p>
-        <div className="flex gap-6">
+        <div className="flex gap-1 lg:gap-6">
           <p className="font-bold">Tag</p>
           {book.tags.map((tag) => (
             <p className="text-green-500">#{tag}</p>

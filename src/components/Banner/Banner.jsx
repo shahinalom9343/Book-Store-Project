@@ -15,7 +15,7 @@ const Banner = () => {
               enlightenment. With each turn of the page, meeting fascinating
               characters, and delving into the depths of human experience.
             </p>
-            <NavLink to="listed_books" className="btn btn-success text-white">
+            <NavLink to="listed_books" className="btn bg-[#23BE0A] text-white">
               View the List
             </NavLink>
           </div>

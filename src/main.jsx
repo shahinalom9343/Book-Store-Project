@@ -6,6 +6,8 @@ import MainLayout from "./components/main-layout/MainLayout";
 import Home from "./components/Home/Home";
 import ListedBooks from "./components/ListedBooks/ListedBooks";
 import BookDetails from "./components/details/BookDetails";
+import Blogs from "./components/blogs/Blogs";
+import Contact from "./components/contact/Contact";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
       {
         path: "/listed_books",
         element: <ListedBooks></ListedBooks>,
+      },
+      {
+        path: "/blogs",
+        element: <Blogs></Blogs>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
       },
       {
         path: "/book/:id",
