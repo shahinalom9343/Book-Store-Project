@@ -3,16 +3,17 @@ export const getBooks = () => {
   let books = [];
   const getBook = localStorage.getItem("books");
   if (getBook) {
-    books = JSON.parse(getBook)
+    return books = JSON.parse(getBook)
   }
   return books
 }
 // save
 export const saveBooks = book => {
   const books = getBooks()
-  const isExist = books.find(bookid => bookid.id === book.bookId)
+  const isExist = books.find(bookid => bookid.bookId === book.bookId)
   if (isExist) {
-    alert("already exist");
+    alert("Already Exist");
+    return
   }
   books.push(book)
   localStorage.setItem('books', JSON.stringify(books))

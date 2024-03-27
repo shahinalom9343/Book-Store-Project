@@ -64,7 +64,7 @@ const Navbar = () => {
               Listed Books
             </NavLink>
             <NavLink
-              to="/pages"
+              to="/page_to_read"
               className={({ isActive }) =>
                 isActive ? "text-primary font-bold" : "font-bold "
               }
