@@ -11,11 +11,11 @@ const ListedBooks = () => {
     setReadBooks(storedReadBooks);
   }, []);
   return (
-    <div className="mt-10">
-      <h1 className="text-2xl text-center font-bold bg-gray-100 py-3 rounded-lg">
+    <div className="mt-2">
+      <h1 className="text-2xl text-center font-bold bg-gray-100 pt-3 rounded-lg">
         Books
       </h1>
-      <div className="flex items-center justify-center mb-20">
+      <div className="flex items-center justify-center">
         <details className="dropdown ">
           <summary className="m-1 btn bg-[#23BE0A] text-white font-semibold">
             <span>Sort By</span>
@@ -37,9 +37,9 @@ const ListedBooks = () => {
         </details>
       </div>
       {/* tab */}
-      <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap dark:bg-gray-100 dark:text-gray-800">
+      <div className="mb-2 flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap dark:bg-gray-100 dark:text-gray-800">
         <Link
-          to="/"
+          to=""
           onClick={() => setTabIndex(0)}
           className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${
             tabIndex === 0 ? "border border-b-0" : "border"
@@ -60,7 +60,6 @@ const ListedBooks = () => {
           <span>Read Books</span>
         </Link>
         <Link
-          to="/wishlists"
           onClick={() => setTabIndex(1)}
           className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${
             tabIndex === 1 ? "border border-b-0" : "border"
