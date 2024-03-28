@@ -72,12 +72,12 @@ const Contact = () => {
             <span className="mb-1">Message</span>
             <textarea
               rows="3"
-              className="block w-full rounded-md  focus:dark:ring-violet-600 dark:bg-gray-100"
+              className="block border-2 w-full rounded-md  focus:dark:ring-violet-600 dark:bg-gray-100"
             ></textarea>
           </label>
           <button
             type="button"
-            className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-violet-600 dark:text-gray-50 focus:dark:ring-violet-600 hover:dark:ring-violet-600 w-full"
+            className="self-center border-2 px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-violet-600 dark:text-gray-50 focus:dark:ring-violet-600 hover:dark:ring-violet-600 w-full"
           >
             Submit
           </button>
